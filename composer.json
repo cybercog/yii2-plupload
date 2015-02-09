@@ -1,0 +1,22 @@
+{
+    "name": "gaohaoliang/yii2-plupload",
+    "description": "plupload plugin for yii2",
+    "keywords": ["yii2", "plupload"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "haoliang",
+            "email": "gaohaoliang1992@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/plupload": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\bootstrap\\": ""
+        }
+    }
+}
